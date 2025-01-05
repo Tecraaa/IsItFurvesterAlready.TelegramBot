@@ -13,7 +13,6 @@ public class Dates
 public class Config
 {
     public Dates? Dates { get; set; }
-    public IPAddresses? IPAddresses { get; set;}
     public string? TelegramBotToken { get; set; }
     public int ThrottleTimeOutSeconds { get; set; }
 }
