@@ -45,6 +45,11 @@ telegramBotClient.OnMessage += async (msg, type) =>
             answer = Functions.YesOrNo(appConfig);
             break;
 
+        // ... yeah.
+        case "/isitfurvesterthisyear":
+            answer = "No. :(";
+            break;
+
         // Not so surprising easter egg, only sent in Private chats 
         case "/xcq":
             if (msg.Chat.Type == ChatType.Private)
