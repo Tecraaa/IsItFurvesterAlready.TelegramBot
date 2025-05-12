@@ -31,7 +31,7 @@ namespace IsItFurvesterAlready.TelegramBot
                 return "No. But Furvester will start tomorrow!";
             }
 
-            return $"No. But Furvester will start in {daysUntil} days!";
+            return $"No. But Furvester will start in... wait, it's cancelled for this year?! Maybe in {daysUntil} days though.";
         }
 
         // Check whether the message can be sent based on the last sent DateTime
